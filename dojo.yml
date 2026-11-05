@@ -1,0 +1,14 @@
+id: arch-comp-gs1
+name: "Memória, Assembly e Binários em Cenários de Cyber Security - Computer Architecture"
+type: example
+award:
+  emoji: 🛡️
+image: pwncollege/challenge-simple
+# Sem modo privilegiado (practice): com sudo o aluno apagaria o registro de tentativas.
+allow_privileged: false
+modules:
+  - id: bits-bytes-ascii
+  - id: memoria
+  - id: cpu-registradores
+  - id: estrutura-binarios
+  - id: assembly

@@ -1,0 +1,6 @@
+name: "Estrutura de Binários"
+challenges:
+  - id: triagem-pe
+    name: "Exercício 9 - Triagem de um anexo .exe suspeito"
+  - id: porta-dos-fundos
+    name: "Exercício 10 - A porta dos fundos no ELF"

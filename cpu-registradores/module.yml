@@ -1,0 +1,8 @@
+name: "CPU e Registradores"
+challenges:
+  - id: ciclo-instrucao
+    name: "Exercício 6 - Ciclo de instrução passo a passo"
+  - id: dado-vira-instrucao
+    name: "Exercício 7 - Quando dado vira instrução"
+  - id: registradores-crash
+    name: "Exercício 8 - Lendo registradores de um crash"
