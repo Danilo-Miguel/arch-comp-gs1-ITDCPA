@@ -16,7 +16,7 @@ Crie `~/login64.asm` em NASM, para x86-64, que:
 
 1. escreva `Usuario: `, sem quebra de linha;
 2. leia até 32 bytes do teclado;
-3. escreva `Bem-vindo, ` seguido exatamente dos bytes lidos, incluindo o Enter;
+3. escreva `Bem-vindo, ` e, na mesma linha, o usuário digitado;
 4. encerre com código de saída 0.
 
 As únicas instruções necessárias são `mov` e `syscall`. Consulte a tabela de syscalls

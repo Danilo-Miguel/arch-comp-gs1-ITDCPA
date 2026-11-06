@@ -16,8 +16,8 @@ Crie `~/cadastro32.asm` em NASM, para x86 de 32 bits, que:
 
 1. escreva `Digite o usuario: `, sem quebra de linha, e leia até 32 bytes;
 2. escreva `Digite o setor: `, sem quebra de linha, e leia até 32 bytes;
-3. escreva `Usuario: ` seguido exatamente dos bytes do usuário, incluindo o Enter;
-4. escreva `Setor: ` seguido exatamente dos bytes do setor, incluindo o Enter;
+3. escreva `Usuario: ` e, na mesma linha, o usuário digitado;
+4. escreva `Setor: ` e, na mesma linha, o setor digitado;
 5. encerre com código de saída 0.
 
 As únicas instruções necessárias são `mov` e `int 0x80`. Consulte a tabela de

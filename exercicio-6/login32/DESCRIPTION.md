@@ -16,7 +16,7 @@ Crie `~/login32.asm` em NASM, para x86 de 32 bits, que:
 
 1. escreva `Usuario: `, sem quebra de linha;
 2. leia até 32 bytes do teclado;
-3. escreva `Bem-vindo, ` seguido exatamente dos bytes lidos, incluindo o Enter;
+3. escreva `Bem-vindo, ` e, na mesma linha, o usuário digitado;
 4. encerre com código de saída 0.
 
 As únicas instruções necessárias são `mov` e `int 0x80`. Consulte a tabela de
