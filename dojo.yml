@@ -1,5 +1,5 @@
 id: arch-comp-gs1
-name: "Memória, Assembly e Binários em Cenários de Cyber Security - Computer Architecture"
+name: "Binário, ASCII e Assembly x86 de 32 e 64 bits - Computer Architecture"
 type: example
 award:
   emoji: 🛡️
@@ -7,8 +7,13 @@ image: pwncollege/challenge-simple
 # Sem modo privilegiado (practice): com sudo o aluno apagaria o registro de tentativas.
 allow_privileged: false
 modules:
-  - id: bits-bytes-ascii
-  - id: memoria
-  - id: cpu-registradores
-  - id: estrutura-binarios
-  - id: assembly
+  - id: exercicio-1
+  - id: exercicio-2
+  - id: exercicio-3
+  - id: exercicio-4
+  - id: exercicio-5
+  - id: exercicio-6
+  - id: exercicio-7
+  - id: exercicio-8
+  - id: exercicio-9
+  - id: exercicio-10

@@ -1,0 +1,4 @@
+name: "Exercício 9"
+challenges:
+  - id: login64
+    name: "Boas-vindas ao usuário (64 bits)"

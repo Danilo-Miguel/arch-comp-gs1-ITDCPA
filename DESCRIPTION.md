@@ -1,7 +1,7 @@
-15 cenários de **cyber security** resolvidos com o que vimos em Arquitetura de
-Computadores: bits e ASCII, memória, CPU e registradores, formatos PE e ELF e
-Assembly x86 de 32 e 64 bits. Os enunciados dizem **o que** entregar e **em que
-formato**; descobrir **como** faz parte do exercício.
+10 exercícios de Arquitetura de Computadores: 4 de **binário, hexadecimal e
+ASCII** e 6 de **Assembly x86** com NASM, em 32 e 64 bits, com leitura e escrita
+no terminal. Os enunciados dizem **o que** entregar e **em que formato**;
+descobrir **como** faz parte do exercício.
 
 **Respostas teóricas** vão em `/home/hacker/resposta.txt`: uma resposta por
 linha, sem linhas extras e sem espaços sobrando. Hexadecimal sempre em

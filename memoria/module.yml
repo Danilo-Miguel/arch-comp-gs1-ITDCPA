@@ -1,4 +1,0 @@
-name: "Memória"
-challenges:
-  - id: overflow-ram
-    name: "Exercício 5 - Overflow na RAM"

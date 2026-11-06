@@ -1,0 +1,4 @@
+name: "Exercício 4"
+challenges:
+  - id: filtro-login
+    name: "Filtro de login que confunde maiúsculas"

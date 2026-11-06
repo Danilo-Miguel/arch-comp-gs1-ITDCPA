@@ -1,4 +1,2 @@
 * text=auto eol=lf
-*.exe binary
 *.o binary
-cofre binary

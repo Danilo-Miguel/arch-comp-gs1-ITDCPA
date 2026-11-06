@@ -1,0 +1,4 @@
+name: "Exercício 5"
+challenges:
+  - id: banner32
+    name: "Banner do servidor (32 bits)"

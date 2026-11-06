@@ -1,26 +1,21 @@
-# Memória, Assembly e Binários em Cenários de Cyber Security
+# Binário, ASCII e Assembly x86 de 32 e 64 bits
 
-Dojo do pwn.college com 15 exercícios, definido em [dojo.yml](./dojo.yml), para
-a disciplina de Arquitetura de Computadores. Cada exercício é um desafio com
+Dojo do pwn.college com 10 exercícios, definido em [dojo.yml](./dojo.yml), para a
+disciplina de Arquitetura de Computadores. Cada exercício é um módulo, com
 `/challenge/check` e flag próprios.
 
-| Módulo | Exercício | Desafio | Tema |
-|---|---|---|---|
-| `bits-bytes-ascii` | 1 | `log-firewall` | IPs em hexadecimal e máscara de rede |
-| | 2 | `byte-permissoes` | Permissões bit a bit |
-| | 3 | `trafego-interceptado` | Payload em ASCII |
-| | 4 | `filtro-login` | Maiúsculas e minúsculas nos bits |
-| `memoria` | 5 | `overflow-ram` | Endereçamento e little-endian |
-| `cpu-registradores` | 6 | `ciclo-instrucao` | Busca, decodificação e execução |
-| | 7 | `dado-vira-instrucao` | Risco de misturar código e dados |
-| | 8 | `registradores-crash` | Sub-registradores e flags |
-| `estrutura-binarios` | 9 | `triagem-pe` | Triagem estática de um PE |
-| | 10 | `porta-dos-fundos` | Cabeçalho, seções e símbolos de um ELF |
-| `assembly` | 11 | `banner32` | `write` e `exit` em 32 bits |
-| | 12 | `porteiro32` | `read`, `cmp` e saltos em 32 bits |
-| | 13 | `cofre32` | Montar, depurar e corrigir em 32 bits |
-| | 14 | `eco64` | `read` e `write` em 64 bits |
-| | 15 | `decoder64` | Depurar uma migração para 64 bits |
+| Módulo | Desafio | Tema |
+|---|---|---|
+| `exercicio-1` | `log-firewall` | IPs em hexadecimal e máscara de rede |
+| `exercicio-2` | `byte-permissoes` | Permissões bit a bit |
+| `exercicio-3` | `trafego-interceptado` | Payload em ASCII |
+| `exercicio-4` | `filtro-login` | Maiúsculas e minúsculas nos bits |
+| `exercicio-5` | `banner32` | Escrita (32 bits) |
+| `exercicio-6` | `login32` | Leitura e escrita (32 bits) |
+| `exercicio-7` | `cadastro32` | Duas leituras e escrita (32 bits) |
+| `exercicio-8` | `banner64` | Escrita (64 bits) |
+| `exercicio-9` | `login64` | Leitura e escrita (64 bits) |
+| `exercicio-10` | `cadastro64` | Duas leituras e escrita (64 bits) |
 
 ## Regra das tentativas
 
@@ -50,5 +45,5 @@ exercícios vêm do workspace do pwn.college, em `/run/dojo/bin`.
 
 ## Gabarito
 
-O gabarito, as soluções, os fontes dos binários e o gerador dos checks **não**
-ficam neste repositório, que é público.
+O gabarito, as soluções e o gerador dos checks **não** ficam neste repositório,
+que é público.

@@ -1,0 +1,4 @@
+name: "Exercício 10"
+challenges:
+  - id: cadastro64
+    name: "Cadastro de acesso (64 bits)"
